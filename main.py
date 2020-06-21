@@ -1,5 +1,6 @@
 # Core Pkgs
 import streamlit as st 
+from flask import Flask
 
 # EDA Pkgs
 import pandas as pd 
@@ -12,6 +13,7 @@ import matplotlib
 matplotlib.use("Agg")
 import seaborn as sns 
 
+app = Flask(__name__)
 
 def main():
 	"""Semi Automated ML App with Streamlit """
