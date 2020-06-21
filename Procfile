@@ -1,1 +1,1 @@
-web: gunicorn main:main
+web: setup.sh && main:main.py
