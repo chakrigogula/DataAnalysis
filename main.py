@@ -12,7 +12,6 @@ import matplotlib
 matplotlib.use("Agg")
 import seaborn as sns 
 
-app = Flask(__name__)
 
 def main():
 	"""Semi Automated ML App with Streamlit """
