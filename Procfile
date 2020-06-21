@@ -1,1 +1,1 @@
-web: setup.sh && main:main.py
+web: setup.sh && main:main
